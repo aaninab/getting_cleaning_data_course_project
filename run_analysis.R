@@ -114,5 +114,5 @@ tidy_data <- merge(tidy_data,
 
 # Export the now "tidy data" 
 write.table(tidy_data, "./tidyData.txt",
-            row.names = TRUE,
+            row.names = FALSE,
             sep = "\t")
